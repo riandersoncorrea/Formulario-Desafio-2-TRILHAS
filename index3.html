@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Inscrição</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-images">
+            <div class="logos">
+                <img id="logo_inova" src="imagens/inova-ma.png" alt="logo inova maranhão">
+                <img id="logo_fapema" src="imagens/fapema.png" alt="logo fapema">
+                <img id="logo_govma" src="imagens/logo-govma.png" alt="logo gov maranhão">
+            </div>
+            <div class="form-imageBG">
+                <img src="imagens/logo-trilhas.png" alt="logo programa trilhas">
+            </div>
+        </div> 
+        <div class="form">
+            <form action="#">
+                <div class= "form-header">
+                     <div class="title">
+                        <h1>Inscreva-se</h1>
+                    </div>
+                    <div class="dados-pessoais">
+                        <h2>Informações Acadêmicas</h2>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box-info">
+                         <div class="input-box">
+                            <select  name="escolaridade" id="escolaridade">
+                                <option value="">Nível de Escolaridade</option>
+                                <option value="Ensino Médio">Ensino Médio</option>
+                                <option value="Ensino Superior">Ensino Superior</option>
+                            </select>
+                        </div>
+                    
+                        <div class="input-box">
+                            <select class="seletores" name="situacao-escolaridade" id="situacao-escolaridade">
+                                <option value="">Situação</option>
+                                <option value="cursando">Cursando</option>
+                                <option value="concluido">Concluído</option>
+                            </select>
+                        </div>
+                    </div>
+                       
+    
+                    <div class="input-box">
+                        <input type="text" name="instituicao" id="instituicao" placeholder="Instituição">
+                    </div>
+                   
+                    
+                    <div class="input-box-info">
+                        <div class="input-box-endereco">
+                            <div class="endereco-instituicao">
+                                <div class="input-box">
+                                    <input type="text" name="cidade" id="cidade" placeholder="Cidade" required>
+                                </div>
+                                <select id="UF" name="UF">
+                                    <option value="">Estado</option>
+                                    <option value="AC">AC</option>
+                                    <option value="AL">AL</option>
+                                    <option value="AP">AP</option>
+                                    <option value="AM">AM</option>
+                                    <option value="BA">BA</option>
+                                    <option value="CE">CE</option>
+                                    <option value="DF">DF</option>
+                                    <option value="ES">ES</option>
+                                    <option value="GO">GO</option>
+                                    <option value="MA">MA</option>
+                                    <option value="MS">MS</option>
+                                    <option value="MT">MT</option>
+                                    <option value="MG">MG</option>
+                                    <option value="PA">PA</option>
+                                    <option value="PB">PB</option>
+                                    <option value="PR">PR</option>
+                                    <option value="PE">PE</option>
+                                    <option value="PI">PI</option>
+                                    <option value="RJ">RJ</option>
+                                    <option value="RN">RN</option>
+                                    <option value="RS">RS</option>
+                                    <option value="RO">RO</option>
+                                    <option value="RR">RR</option>
+                                    <option value="SC">SC</option>
+                                    <option value="SP">SP</option>
+                                    <option value="SE">SE</option>
+                                    <option value="TO">TO</option>
+                                </select>
+                            </div>
+                            <div class="anexo">
+                                <div class="anexo-box-title">
+                                    <p class="anexo-title">Declaração de Vínculo ou Certificado de Conclusão</p>
+                                </div>
+                        
+                                <div class="anexo-box">
+                                    <img src="imagens/anexo.png" alt="icone anexo">
+                                    <div class="texto-anexo">
+                                        <p>Selecione arquivo <br> ou arraste pra cá</p>
+                                        <p class="texto-anexo-type"> JPG, PNG ou PDF</p>
+                                    </div>
+                                    <input type="file" name="selecione">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                
+                <div class="action-button">
+                    <nav>
+                        <button class="action-button-voltar"><a href="index2.html">Voltar</a></button>
+                        <button class="action-button-avancar"><a href="#">Enviar</a></button>
+                    </nav>
+                </div>
+            </form>
+        </div> 
+    </div>
+</body>
+</html>

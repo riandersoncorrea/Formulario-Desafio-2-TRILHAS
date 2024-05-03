@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Inscrição</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-images">
+            <div class="logos">
+                <img id="logo_inova" src="imagens/inova-ma.png" alt="logo inova maranhão">
+                <img id="logo_fapema" src="imagens/fapema.png" alt="logo fapema">
+                <img id="logo_govma" src="imagens/logo-govma.png" alt="logo gov maranhão">
+            </div>
+            <div class="form-imageBG">
+                <img src="imagens/logo-trilhas.png" alt="logo programa trilhas">
+            </div>
+        </div> 
+        <div class="form">
+            <form action="#">
+                <div class= "form-header">
+                     <div class="title">
+                        <h1>Inscreva-se</h1>
+                    </div>
+                    <div class="dados-pessoais">
+                        <h2>Informações de Endereço</h2>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box-info">
+                         <div class="input-box">
+                            <input type="text" name="nome" id="nome" placeholder="Rua" required>
+                        </div>
+                    
+                        <div class="input-box">
+                            <input type="text" name="bairro" id="bairro" placeholder="Bairro" required>
+                        </div>
+                    </div>
+                    <div class="input-box-info">
+                        <div class="input-box">
+                            <input type="number" name="numero" id="numero" placeholder="Número" required>
+                        </div>
+    
+                        <div class="input-box">
+                            <input type="text" name="complemento" id="complemento" placeholder="Complemento">
+                        </div>
+                    </div>
+                    
+                    <div class="input-box-info">
+                        <div class="input-box">
+                            <input type="text" name="cidade" id="cidade" placeholder="Cidade" required>
+                        </div>
+                        <div class="input-box">
+                            <input type="number" name="cep" id="cep" placeholder="CEP" required>
+                        </div>
+                    </div>
+                    
+                   
+                    <div class="input-box-info">
+                        <select class="seletores" id="UF" name="UF">
+                            <option value="">Estado</option>
+                            <option value="AC">AC</option>
+                            <option value="AL">AL</option>
+                            <option value="AP">AP</option>
+                            <option value="AM">AM</option>
+                            <option value="BA">BA</option>
+                            <option value="CE">CE</option>
+                            <option value="DF">DF</option>
+                            <option value="ES">ES</option>
+                            <option value="GO">GO</option>
+                            <option value="MA">MA</option>
+                            <option value="MS">MS</option>
+                            <option value="MT">MT</option>
+                            <option value="MG">MG</option>
+                            <option value="PA">PA</option>
+                            <option value="PB">PB</option>
+                            <option value="PR">PR</option>
+                            <option value="PE">PE</option>
+                            <option value="PI">PI</option>
+                            <option value="RJ">RJ</option>
+                            <option value="RN">RN</option>
+                            <option value="RS">RS</option>
+                            <option value="RO">RO</option>
+                            <option value="RR">RR</option>
+                            <option value="SC">SC</option>
+                            <option value="SP">SP</option>
+                            <option value="SE">SE</option>
+                            <option value="TO">TO</option>
+                         </select>
+                        <div class="input-box">
+                            <input type="text" name="pais" id="pais" placeholder="País" required>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="action-button">
+                    <nav>
+                        <button class="action-button-voltar"><a href="index.html">Voltar</a></button>
+                        <button class="action-button-avancar"><a href="index3.html">Avançar</a></button>
+                    </nav>
+                </div>
+            </form>
+        </div> 
+    </div>
+</body>
+</html>

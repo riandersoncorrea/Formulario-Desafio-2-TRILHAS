@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+
+}
+
+body {
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: #006989 ;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    margin: 70px 70px 70px 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    align-content: space-between;
+    gap: 44px;
+}
+.form-images {
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form {
+    width: 45vw;
+    height: 95vh;
+    border-radius: 25px;
+    color: #15152d57;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EAEBED;
+}
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    gap: 50px;
+}
+.form-imageBG {
+   
+    height: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.form-imageBG img {
+    width: 560px;
+    height: 550px;
+}
+
+#logo_inova {
+    width: 126px;
+    height: 43px;
+}
+
+#logo_fapema {
+    width: 185px;
+    height: 54px;
+}
+
+#logo_govma {
+    width: 172px;
+    height: 53px;
+}
+
+.form-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    gap: 24px;
+    color: #006989;
+    
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 500;
+    
+}
+
+.dados-pessoais {
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    align-content : center;
+    padding: 5% 13%;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+
+.input-box input {
+    color: #006989;
+    font-weight: 600;
+    width: 481px;
+    height: 55px;
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+}
+
+.input-box-number {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 14px;
+}
+
+.input-box-number input{
+    width: 233px;
+    height: 55px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    justify-content: center;
+    gap: 34px;
+}
+
+.action-button button {
+    width: 200px;
+    height: 45px;
+    padding: 15px 28px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+}
+
+.action-button-cancelar {
+    background-color: #A3BAC3;
+}
+
+.action-button-avancar, .action-button-voltar {
+    background-color: #006989;
+}
+
+.action-button a {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+    color: #EAEBED;
+    font-weight: 600;
+}
+
+/*Informacoes de endereco*/
+
+.input-box-container-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-box-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 14px;
+}
+
+.input-box-info input, select{
+    width: 233px;
+    height: 55px;
+}
+
+.input-box-info select {
+    color: #006989;
+    font-weight: 600;
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+}
+
+/*Informacoes academica*/
+
+.anexo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   justify-content: space-between;
+    gap: 14px ;
+}
+
+.anexo-title {
+    width: 386px;
+    height: 21px;
+    font-family: 'Poppins', sans-serif;
+    color: #006989;
+    font-size: 14px;
+    font-weight: 500;
+    align-items: center;
+    margin: 5px;
+}
+
+.anexo-box {
+    width: 480px;
+    height: 80px;
+    border: 1px solid #006989;
+    padding: 16px 9px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 16px;
+    
+}
+
+.anexo-box input {
+    width: 200px;
+    height: 30px;
+    align-items: center;
+    align-content: center;
+}
+.anexo-box img {
+    width: 54px;
+    height: 54px;
+}
+.anexo-box p {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.texto-anexo-type {
+    font-size: 12px;
+}
+
+.anexo-box-title {
+    width: 480px;
+    height: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+}
+
+.endereco-instituicao {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 14px;
+}
+
+.input-box-endereco {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1330px) {
+    .form-images {
+        display: none;
+    }
+
+    .container{
+        width: 50%;
+    }
+
+    .form{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        width: 90%;
+        height: auto;
+    }
+    
+    .input-group {
+        flex-direction: column;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        flex-wrap: nowrap;
+        max-height: 10rem;
+        padding-right: 5rem;
+    }
+    .action-button {
+        margin-top: 2rem;
+    }
+}

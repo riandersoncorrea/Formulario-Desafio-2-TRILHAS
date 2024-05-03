@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Inscrição</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-images">
+            <div class="logos">
+                <img id="logo_inova" src="imagens/inova-ma.png" alt="logo inova maranhão">
+                <img id="logo_fapema" src="imagens/fapema.png" alt="logo fapema">
+                <img id="logo_govma" src="imagens/logo-govma.png" alt="logo gov maranhão">
+            </div>
+            <div class="form-imageBG">
+                <img src="imagens/logo-trilhas.png" alt="logo programa trilhas">
+            </div>
+        </div> 
+        <div class="form">
+            <form action="#">
+                <div class= "form-header">
+                     <div class="title">
+                        <h1>Inscreva-se</h1>
+                    </div>
+                    <div class="dados-pessoais">
+                        <h2>Dados Pessoais</h2>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <input type="text" name="nome" id="nome" placeholder="Nome Completo" required>
+                    </div>
+                    <div class="input-box">
+                        <input type="email" name="email" id="email" placeholder="E-mail" required>
+                    </div>
+                    <div class="input-box-number">
+                        <div class="input-box">
+                            <input type="number" name="cpf" id="cpf" placeholder="CPF" required>
+                        </div>
+                        <div class="input-box">
+                            <input type="tel" name="telefone" id="telefone" placeholder="Telefone" required>
+                        </div>
+                    </div>
+                    
+                    <div class="input-box">
+                        <input type="date" name="aniversario" id="aniversario" placeholder="Data de Nascimento" required>
+                    </div>
+                </div>
+
+                <div class="action-button">
+                    <nav>
+                        <button class="action-button-cancelar"><a href="#">Cancelar</a></button>
+                        <button class="action-button-avancar"><a href="index2.html">Avançar</a></button>
+                    </nav>
+                </div>
+            </form>
+        </div> 
+    </div>
+</body>
+</html>
